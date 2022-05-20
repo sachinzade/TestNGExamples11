@@ -1,105 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11544" started-at="2022-05-18T20:54:31Z" finished-at="2022-05-18T20:54:43Z">
+  <suite name="Default suite" duration-ms="7436" started-at="2022-05-20T04:32:54Z" finished-at="2022-05-20T04:33:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11544" started-at="2022-05-18T20:54:31Z" finished-at="2022-05-18T20:54:43Z">
-      <class name="com.user.AddUser">
-        <test-method status="PASS" signature="addUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.user.AddUser@62ee68d8]" name="addUserTest" duration-ms="6009" started-at="2022-05-19T02:24:32Z" data-provider="user" finished-at="2022-05-19T02:24:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sachin zade]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234567890]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[sachin@gmial.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Selenium  OJT]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Maharashtra]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1234567]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[987654321]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="7436" started-at="2022-05-20T04:32:54Z" finished-at="2022-05-20T04:33:02Z">
+      <class name="com.user.TestDropDownList">
+        <test-method status="PASS" signature="testDropDown()[pri:0, instance:com.user.TestDropDownList@7f9a81e8]" name="testDropDown" duration-ms="7405" started-at="2022-05-20T10:02:54Z" finished-at="2022-05-20T10:03:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addUserTest -->
-        <test-method status="PASS" signature="addUserTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.user.AddUser@62ee68d8]" name="addUserTest" duration-ms="5258" started-at="2022-05-19T02:24:38Z" data-provider="user" finished-at="2022-05-19T02:24:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dhruti]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234512345]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[dhruti@gmial.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Java Dev]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Female]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[HP]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[1212121]]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[1234567890]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addUserTest -->
-      </class> <!-- com.user.AddUser -->
+        </test-method> <!-- testDropDown -->
+      </class> <!-- com.user.TestDropDownList -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
